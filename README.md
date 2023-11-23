@@ -40,31 +40,10 @@ class AboutMe extends Developer {
 }
 
 class Skills extends Developer {
-    languages = [
-        "JAVASCRIPT",
-        "JAVA",
-        "NODE",
-        "PHP",
-    ];
-    databases  = [
-        "POSTGRESQL",
-        "MARIADB",
-        "MYSQL",
-    ];
-    frameworks = [
-        "LARAVEL",
-        "NEXT",
-        "REACT",
-    ];
-    others = [
-        "UI/UX Figma and AdobeXD",
-        "TORTOISESVN",
-        "GITHUB",
-        "JQUERY",
-        "DOCKER",
-        "LINUX",
-        "GIT",
-    ];
+    languages = [ "JAVASCRIPT", "NODE", "PHP", ];
+    databases  = [ "POSTGRESQL", "MARIADB", "MYSQL" ];
+    frameworks = [ "LARAVEL", "NEXT", "REACT",];
+    others = [ "UI/UX Figma and AdobeXD", "TORTOISESVN", "GITHUB", "JQUERY", "DOCKER", "LINUX", "GIT", ];
 }
 
 ```
